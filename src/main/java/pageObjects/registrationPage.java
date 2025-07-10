@@ -8,14 +8,11 @@ import testBase.basePage;
 
 public class registrationPage  extends basePage{
 	
-	WebDriver driver;
 	public registrationPage(WebDriver driver)
 	{
 		super(driver);
 	}
 	
-	@FindBy(xpath="//a[@title='My Account']") WebElement myAccountDropDown;
-	@FindBy(xpath="//a[normalize-space()='Register']") WebElement registerOption;
 	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']") WebElement loginOption;
 	@FindBy(xpath="//input[@id='input-firstname']") WebElement txtBxFirtName;
 	@FindBy(xpath="//input[@id='input-lastname']") WebElement txtBxLastName;
@@ -27,18 +24,13 @@ public class registrationPage  extends basePage{
 	@FindBy(xpath="//input[@value='Continue']") WebElement btnContinue;
 	@FindBy(xpath="//a[normalize-space()='login page']") WebElement loginpageLink;
 	
-	public void clickOnMyAccount()
-	{
-		myAccountDropDown.click();
-	}
+	
+	
 	public void selectloginOption()
 	{
 		loginOption.click();
 	}
-	public void selectRegisterOption()
-	{
-		registerOption.click();
-	}
+	
 	public void enterTxtFirtName(String firstname)
 	{
 		txtBxFirtName.sendKeys(firstname);
@@ -75,12 +67,5 @@ public class registrationPage  extends basePage{
 	{
 		loginpageLink.click();
 	}
-	
-//	public void clickOnMyAccount()
-//	{
-//		myAccount.click();
-//	}
-	
-	
 
 }

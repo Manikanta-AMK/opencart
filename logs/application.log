@@ -1,0 +1,88 @@
+2025-07-10 18:17:40,484  INFO [TestNG-tests-3] TC_01_registrationTestcase:100 - cookies deleted
+2025-07-10 18:17:40,486  INFO [TestNG-tests-1] TC_01_registrationTestcase:100 - cookies deleted
+2025-07-10 18:17:41,610  INFO [TestNG-tests-1] TC_01_registrationTestcase:17 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 18:17:41,647  INFO [TestNG-tests-1] TC_01_registrationTestcase:20 - Clicking on My account
+2025-07-10 18:17:41,921  INFO [TestNG-tests-1] TC_01_registrationTestcase:22 - Clicking on Register option
+2025-07-10 18:17:42,546  INFO [TestNG-tests-1] TC_01_registrationTestcase:24 - Entering Customer details
+2025-07-10 18:17:42,583  INFO [TestNG-tests-3] TC_01_registrationTestcase:17 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 18:17:42,589  INFO [TestNG-tests-3] TC_01_registrationTestcase:20 - Clicking on My account
+2025-07-10 18:17:43,040  INFO [TestNG-tests-3] TC_01_registrationTestcase:22 - Clicking on Register option
+2025-07-10 18:17:43,764  INFO [TestNG-tests-3] TC_01_registrationTestcase:24 - Entering Customer details
+2025-07-10 18:17:44,168  INFO [TestNG-tests-1] TC_01_registrationTestcase:32 - Clicking on continue button
+2025-07-10 18:17:44,691  INFO [TestNG-tests-3] TC_01_registrationTestcase:32 - Clicking on continue button
+2025-07-10 18:17:45,475  INFO [TestNG-tests-1] TC_01_registrationTestcase:34 - Validating succes messge and clicking on continue button
+2025-07-10 18:17:45,571  INFO [TestNG-tests-3] TC_01_registrationTestcase:34 - Validating succes messge and clicking on continue button
+2025-07-10 18:17:45,971  INFO [TestNG-tests-1] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 18:17:46,102  INFO [TestNG-tests-3] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 18:17:47,700  INFO [TestNG-tests-2] TC_01_registrationTestcase:100 - cookies deleted
+2025-07-10 18:17:49,612  INFO [TestNG-tests-2] TC_01_registrationTestcase:17 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 18:17:49,613  INFO [TestNG-tests-2] TC_01_registrationTestcase:20 - Clicking on My account
+2025-07-10 18:17:49,892  INFO [TestNG-tests-2] TC_01_registrationTestcase:22 - Clicking on Register option
+2025-07-10 18:17:50,316  INFO [TestNG-tests-2] TC_01_registrationTestcase:24 - Entering Customer details
+2025-07-10 18:17:50,814  INFO [TestNG-tests-2] TC_01_registrationTestcase:32 - Clicking on continue button
+2025-07-10 18:17:51,547  INFO [TestNG-tests-2] TC_01_registrationTestcase:34 - Validating succes messge and clicking on continue button
+2025-07-10 18:17:51,837  INFO [TestNG-tests-2] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 18:48:06,985  INFO [TestNG-tests-1] TC_01_registrationTestcase:100 - cookies deleted
+2025-07-10 18:48:07,092  INFO [TestNG-tests-3] TC_01_registrationTestcase:100 - cookies deleted
+2025-07-10 18:48:10,506  INFO [TestNG-tests-1] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 18:48:10,577  INFO [TestNG-tests-1] TC_01_registrationTestcase:21 - Clicking on My account
+2025-07-10 18:48:10,959  INFO [TestNG-tests-1] TC_01_registrationTestcase:23 - Clicking on Register option
+2025-07-10 18:48:11,102  INFO [TestNG-tests-3] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 18:48:11,104  INFO [TestNG-tests-3] TC_01_registrationTestcase:21 - Clicking on My account
+2025-07-10 18:48:11,463  INFO [TestNG-tests-3] TC_01_registrationTestcase:23 - Clicking on Register option
+2025-07-10 18:48:11,749  INFO [TestNG-tests-1] TC_01_registrationTestcase:26 - Entering Customer details
+2025-07-10 18:48:12,334  INFO [TestNG-tests-3] TC_01_registrationTestcase:26 - Entering Customer details
+2025-07-10 18:48:12,822  INFO [TestNG-tests-1] TC_01_registrationTestcase:34 - Clicking on continue button
+2025-07-10 18:48:13,177  INFO [TestNG-tests-3] TC_01_registrationTestcase:34 - Clicking on continue button
+2025-07-10 18:48:14,329  INFO [TestNG-tests-1] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
+2025-07-10 18:48:14,818  INFO [TestNG-tests-1] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 18:48:14,861  INFO [TestNG-tests-3] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
+2025-07-10 18:48:15,243  INFO [TestNG-tests-2] TC_01_registrationTestcase:100 - cookies deleted
+2025-07-10 18:48:15,513  INFO [TestNG-tests-3] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 18:48:18,182  INFO [TestNG-tests-2] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 18:48:18,184  INFO [TestNG-tests-2] TC_01_registrationTestcase:21 - Clicking on My account
+2025-07-10 18:48:18,463  INFO [TestNG-tests-2] TC_01_registrationTestcase:23 - Clicking on Register option
+2025-07-10 18:48:18,943  INFO [TestNG-tests-2] TC_01_registrationTestcase:26 - Entering Customer details
+2025-07-10 18:48:19,448  INFO [TestNG-tests-2] TC_01_registrationTestcase:34 - Clicking on continue button
+2025-07-10 18:48:20,271  INFO [TestNG-tests-2] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
+2025-07-10 18:48:20,561  INFO [TestNG-tests-2] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 18:58:04,960  INFO [TestNG-tests-1] TC_01_registrationTestcase:101 - cookies deleted
+2025-07-10 18:58:04,963  INFO [TestNG-tests-3] TC_01_registrationTestcase:101 - cookies deleted
+2025-07-10 18:58:07,995  INFO [TestNG-tests-1] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 18:58:08,016  INFO [TestNG-tests-3] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 18:58:08,036  INFO [TestNG-tests-1] TC_01_registrationTestcase:21 - Clicking on My account
+2025-07-10 18:58:08,036  INFO [TestNG-tests-3] TC_01_registrationTestcase:21 - Clicking on My account
+2025-07-10 18:58:08,237  INFO [TestNG-tests-3] TC_01_registrationTestcase:23 - Clicking on Register option
+2025-07-10 18:58:08,245  INFO [TestNG-tests-1] TC_01_registrationTestcase:23 - Clicking on Register option
+2025-07-10 18:58:08,845  INFO [TestNG-tests-1] TC_01_registrationTestcase:26 - Entering Customer details
+2025-07-10 18:58:08,860  INFO [TestNG-tests-3] TC_01_registrationTestcase:26 - Entering Customer details
+2025-07-10 18:58:09,758  INFO [TestNG-tests-1] TC_01_registrationTestcase:34 - Clicking on continue button
+2025-07-10 18:58:09,850  INFO [TestNG-tests-3] TC_01_registrationTestcase:34 - Clicking on continue button
+2025-07-10 18:58:10,905  INFO [TestNG-tests-2] TC_01_registrationTestcase:101 - cookies deleted
+2025-07-10 18:58:10,933  INFO [TestNG-tests-1] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
+2025-07-10 18:58:10,995  INFO [TestNG-tests-3] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
+2025-07-10 18:58:11,422  INFO [TestNG-tests-1] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 18:58:11,570  INFO [TestNG-tests-3] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 18:58:13,326  INFO [TestNG-tests-2] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 18:58:13,327  INFO [TestNG-tests-2] TC_01_registrationTestcase:21 - Clicking on My account
+2025-07-10 18:58:13,636  INFO [TestNG-tests-2] TC_01_registrationTestcase:23 - Clicking on Register option
+2025-07-10 18:58:14,135  INFO [TestNG-tests-2] TC_01_registrationTestcase:26 - Entering Customer details
+2025-07-10 18:58:14,635  INFO [TestNG-tests-2] TC_01_registrationTestcase:34 - Clicking on continue button
+2025-07-10 18:58:15,351  INFO [TestNG-tests-2] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
+2025-07-10 18:58:15,627  INFO [TestNG-tests-2] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 19:00:40,967  INFO [main] TC_01_registrationTestcase:101 - cookies deleted
+2025-07-10 19:00:43,764  INFO [main] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 19:00:43,798  INFO [main] TC_01_registrationTestcase:21 - Clicking on My account
+2025-07-10 19:00:43,988  INFO [main] TC_01_registrationTestcase:23 - Clicking on Register option
+2025-07-10 19:00:44,646  INFO [main] TC_01_registrationTestcase:26 - Entering Customer details
+2025-07-10 19:00:45,523  INFO [main] TC_01_registrationTestcase:34 - Clicking on continue button
+2025-07-10 19:00:46,650  INFO [main] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
+2025-07-10 19:00:47,134  INFO [main] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
+2025-07-10 19:05:11,576  INFO [main] TC_01_registrationTestcase:101 - cookies deleted
+2025-07-10 19:05:13,775  INFO [main] TC_01_registrationTestcase:19 - ******* Started TC_01_registrationTestcase *******
+2025-07-10 19:05:13,875  INFO [main] TC_01_registrationTestcase:23 - Clicking on My account
+2025-07-10 19:05:14,031  INFO [main] TC_01_registrationTestcase:25 - Clicking on Register option
+2025-07-10 19:05:14,518  INFO [main] TC_01_registrationTestcase:28 - Entering Customer details
+2025-07-10 19:05:15,334  INFO [main] TC_01_registrationTestcase:36 - Clicking on continue button
+2025-07-10 19:05:16,791  INFO [main] TC_01_registrationTestcase:38 - Validating succes messge and clicking on continue button
+2025-07-10 19:05:17,308  INFO [main] TC_01_registrationTestcase:53 - ******* Finished TC_01_registrationTestcase *******
