@@ -86,3 +86,11 @@
 2025-07-10 19:05:15,334  INFO [main] TC_01_registrationTestcase:36 - Clicking on continue button
 2025-07-10 19:05:16,791  INFO [main] TC_01_registrationTestcase:38 - Validating succes messge and clicking on continue button
 2025-07-10 19:05:17,308  INFO [main] TC_01_registrationTestcase:53 - ******* Finished TC_01_registrationTestcase *******
+2025-07-17 11:36:47,645  INFO [main] TC_01_registrationTestcase:101 - cookies deleted
+2025-07-17 11:36:49,542  INFO [main] TC_01_registrationTestcase:19 - ******* Started TC_01_registrationTestcase *******
+2025-07-17 11:36:49,639  INFO [main] TC_01_registrationTestcase:23 - Clicking on My account
+2025-07-17 11:36:49,801  INFO [main] TC_01_registrationTestcase:25 - Clicking on Register option
+2025-07-17 11:36:50,451  INFO [main] TC_01_registrationTestcase:28 - Entering Customer details
+2025-07-17 11:36:51,358  INFO [main] TC_01_registrationTestcase:36 - Clicking on continue button
+2025-07-17 11:36:52,276  INFO [main] TC_01_registrationTestcase:38 - Validating succes messge and clicking on continue button
+2025-07-17 11:36:52,773  INFO [main] TC_01_registrationTestcase:53 - ******* Finished TC_01_registrationTestcase *******
