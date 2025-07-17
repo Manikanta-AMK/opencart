@@ -47,7 +47,6 @@ public class BaseTest {
 	public Properties prop;
 	public ExtentSparkReporter sparkReporter;
 	public filelib flib;
-	// private static ThreadLocal<WebDriver> tldriver = new ThreadLocal<>();
 
 	public BaseTest() {
 		prop = new Properties();
@@ -62,8 +61,8 @@ public class BaseTest {
 	}
 	
 	@BeforeClass
-	//@Parameters({"os","browser"})
-	public void initialization() { // String os, String br required while running through xml file
+	//@Parameters({"os","browser"})   //String os, String br required while running through xml file
+	public void initialization() { 
 		log = LogManager.getLogger(this.getClass());
 		PropertyConfigurator.configure(constants.log4jPath);
 		
