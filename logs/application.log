@@ -1,264 +1,30 @@
-2025-07-10 18:17:40,484  INFO [TestNG-tests-3] TC_01_registrationTestcase:100 - cookies deleted
-2025-07-10 18:17:40,486  INFO [TestNG-tests-1] TC_01_registrationTestcase:100 - cookies deleted
-2025-07-10 18:17:41,610  INFO [TestNG-tests-1] TC_01_registrationTestcase:17 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 18:17:41,647  INFO [TestNG-tests-1] TC_01_registrationTestcase:20 - Clicking on My account
-2025-07-10 18:17:41,921  INFO [TestNG-tests-1] TC_01_registrationTestcase:22 - Clicking on Register option
-2025-07-10 18:17:42,546  INFO [TestNG-tests-1] TC_01_registrationTestcase:24 - Entering Customer details
-2025-07-10 18:17:42,583  INFO [TestNG-tests-3] TC_01_registrationTestcase:17 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 18:17:42,589  INFO [TestNG-tests-3] TC_01_registrationTestcase:20 - Clicking on My account
-2025-07-10 18:17:43,040  INFO [TestNG-tests-3] TC_01_registrationTestcase:22 - Clicking on Register option
-2025-07-10 18:17:43,764  INFO [TestNG-tests-3] TC_01_registrationTestcase:24 - Entering Customer details
-2025-07-10 18:17:44,168  INFO [TestNG-tests-1] TC_01_registrationTestcase:32 - Clicking on continue button
-2025-07-10 18:17:44,691  INFO [TestNG-tests-3] TC_01_registrationTestcase:32 - Clicking on continue button
-2025-07-10 18:17:45,475  INFO [TestNG-tests-1] TC_01_registrationTestcase:34 - Validating succes messge and clicking on continue button
-2025-07-10 18:17:45,571  INFO [TestNG-tests-3] TC_01_registrationTestcase:34 - Validating succes messge and clicking on continue button
-2025-07-10 18:17:45,971  INFO [TestNG-tests-1] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 18:17:46,102  INFO [TestNG-tests-3] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 18:17:47,700  INFO [TestNG-tests-2] TC_01_registrationTestcase:100 - cookies deleted
-2025-07-10 18:17:49,612  INFO [TestNG-tests-2] TC_01_registrationTestcase:17 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 18:17:49,613  INFO [TestNG-tests-2] TC_01_registrationTestcase:20 - Clicking on My account
-2025-07-10 18:17:49,892  INFO [TestNG-tests-2] TC_01_registrationTestcase:22 - Clicking on Register option
-2025-07-10 18:17:50,316  INFO [TestNG-tests-2] TC_01_registrationTestcase:24 - Entering Customer details
-2025-07-10 18:17:50,814  INFO [TestNG-tests-2] TC_01_registrationTestcase:32 - Clicking on continue button
-2025-07-10 18:17:51,547  INFO [TestNG-tests-2] TC_01_registrationTestcase:34 - Validating succes messge and clicking on continue button
-2025-07-10 18:17:51,837  INFO [TestNG-tests-2] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 18:48:06,985  INFO [TestNG-tests-1] TC_01_registrationTestcase:100 - cookies deleted
-2025-07-10 18:48:07,092  INFO [TestNG-tests-3] TC_01_registrationTestcase:100 - cookies deleted
-2025-07-10 18:48:10,506  INFO [TestNG-tests-1] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 18:48:10,577  INFO [TestNG-tests-1] TC_01_registrationTestcase:21 - Clicking on My account
-2025-07-10 18:48:10,959  INFO [TestNG-tests-1] TC_01_registrationTestcase:23 - Clicking on Register option
-2025-07-10 18:48:11,102  INFO [TestNG-tests-3] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 18:48:11,104  INFO [TestNG-tests-3] TC_01_registrationTestcase:21 - Clicking on My account
-2025-07-10 18:48:11,463  INFO [TestNG-tests-3] TC_01_registrationTestcase:23 - Clicking on Register option
-2025-07-10 18:48:11,749  INFO [TestNG-tests-1] TC_01_registrationTestcase:26 - Entering Customer details
-2025-07-10 18:48:12,334  INFO [TestNG-tests-3] TC_01_registrationTestcase:26 - Entering Customer details
-2025-07-10 18:48:12,822  INFO [TestNG-tests-1] TC_01_registrationTestcase:34 - Clicking on continue button
-2025-07-10 18:48:13,177  INFO [TestNG-tests-3] TC_01_registrationTestcase:34 - Clicking on continue button
-2025-07-10 18:48:14,329  INFO [TestNG-tests-1] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
-2025-07-10 18:48:14,818  INFO [TestNG-tests-1] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 18:48:14,861  INFO [TestNG-tests-3] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
-2025-07-10 18:48:15,243  INFO [TestNG-tests-2] TC_01_registrationTestcase:100 - cookies deleted
-2025-07-10 18:48:15,513  INFO [TestNG-tests-3] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 18:48:18,182  INFO [TestNG-tests-2] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 18:48:18,184  INFO [TestNG-tests-2] TC_01_registrationTestcase:21 - Clicking on My account
-2025-07-10 18:48:18,463  INFO [TestNG-tests-2] TC_01_registrationTestcase:23 - Clicking on Register option
-2025-07-10 18:48:18,943  INFO [TestNG-tests-2] TC_01_registrationTestcase:26 - Entering Customer details
-2025-07-10 18:48:19,448  INFO [TestNG-tests-2] TC_01_registrationTestcase:34 - Clicking on continue button
-2025-07-10 18:48:20,271  INFO [TestNG-tests-2] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
-2025-07-10 18:48:20,561  INFO [TestNG-tests-2] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 18:58:04,960  INFO [TestNG-tests-1] TC_01_registrationTestcase:101 - cookies deleted
-2025-07-10 18:58:04,963  INFO [TestNG-tests-3] TC_01_registrationTestcase:101 - cookies deleted
-2025-07-10 18:58:07,995  INFO [TestNG-tests-1] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 18:58:08,016  INFO [TestNG-tests-3] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 18:58:08,036  INFO [TestNG-tests-1] TC_01_registrationTestcase:21 - Clicking on My account
-2025-07-10 18:58:08,036  INFO [TestNG-tests-3] TC_01_registrationTestcase:21 - Clicking on My account
-2025-07-10 18:58:08,237  INFO [TestNG-tests-3] TC_01_registrationTestcase:23 - Clicking on Register option
-2025-07-10 18:58:08,245  INFO [TestNG-tests-1] TC_01_registrationTestcase:23 - Clicking on Register option
-2025-07-10 18:58:08,845  INFO [TestNG-tests-1] TC_01_registrationTestcase:26 - Entering Customer details
-2025-07-10 18:58:08,860  INFO [TestNG-tests-3] TC_01_registrationTestcase:26 - Entering Customer details
-2025-07-10 18:58:09,758  INFO [TestNG-tests-1] TC_01_registrationTestcase:34 - Clicking on continue button
-2025-07-10 18:58:09,850  INFO [TestNG-tests-3] TC_01_registrationTestcase:34 - Clicking on continue button
-2025-07-10 18:58:10,905  INFO [TestNG-tests-2] TC_01_registrationTestcase:101 - cookies deleted
-2025-07-10 18:58:10,933  INFO [TestNG-tests-1] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
-2025-07-10 18:58:10,995  INFO [TestNG-tests-3] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
-2025-07-10 18:58:11,422  INFO [TestNG-tests-1] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 18:58:11,570  INFO [TestNG-tests-3] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 18:58:13,326  INFO [TestNG-tests-2] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 18:58:13,327  INFO [TestNG-tests-2] TC_01_registrationTestcase:21 - Clicking on My account
-2025-07-10 18:58:13,636  INFO [TestNG-tests-2] TC_01_registrationTestcase:23 - Clicking on Register option
-2025-07-10 18:58:14,135  INFO [TestNG-tests-2] TC_01_registrationTestcase:26 - Entering Customer details
-2025-07-10 18:58:14,635  INFO [TestNG-tests-2] TC_01_registrationTestcase:34 - Clicking on continue button
-2025-07-10 18:58:15,351  INFO [TestNG-tests-2] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
-2025-07-10 18:58:15,627  INFO [TestNG-tests-2] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 19:00:40,967  INFO [main] TC_01_registrationTestcase:101 - cookies deleted
-2025-07-10 19:00:43,764  INFO [main] TC_01_registrationTestcase:18 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 19:00:43,798  INFO [main] TC_01_registrationTestcase:21 - Clicking on My account
-2025-07-10 19:00:43,988  INFO [main] TC_01_registrationTestcase:23 - Clicking on Register option
-2025-07-10 19:00:44,646  INFO [main] TC_01_registrationTestcase:26 - Entering Customer details
-2025-07-10 19:00:45,523  INFO [main] TC_01_registrationTestcase:34 - Clicking on continue button
-2025-07-10 19:00:46,650  INFO [main] TC_01_registrationTestcase:36 - Validating succes messge and clicking on continue button
-2025-07-10 19:00:47,134  INFO [main] TC_01_registrationTestcase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-10 19:05:11,576  INFO [main] TC_01_registrationTestcase:101 - cookies deleted
-2025-07-10 19:05:13,775  INFO [main] TC_01_registrationTestcase:19 - ******* Started TC_01_registrationTestcase *******
-2025-07-10 19:05:13,875  INFO [main] TC_01_registrationTestcase:23 - Clicking on My account
-2025-07-10 19:05:14,031  INFO [main] TC_01_registrationTestcase:25 - Clicking on Register option
-2025-07-10 19:05:14,518  INFO [main] TC_01_registrationTestcase:28 - Entering Customer details
-2025-07-10 19:05:15,334  INFO [main] TC_01_registrationTestcase:36 - Clicking on continue button
-2025-07-10 19:05:16,791  INFO [main] TC_01_registrationTestcase:38 - Validating succes messge and clicking on continue button
-2025-07-10 19:05:17,308  INFO [main] TC_01_registrationTestcase:53 - ******* Finished TC_01_registrationTestcase *******
-2025-07-17 11:36:47,645  INFO [main] TC_01_registrationTestcase:101 - cookies deleted
-2025-07-17 11:36:49,542  INFO [main] TC_01_registrationTestcase:19 - ******* Started TC_01_registrationTestcase *******
-2025-07-17 11:36:49,639  INFO [main] TC_01_registrationTestcase:23 - Clicking on My account
-2025-07-17 11:36:49,801  INFO [main] TC_01_registrationTestcase:25 - Clicking on Register option
-2025-07-17 11:36:50,451  INFO [main] TC_01_registrationTestcase:28 - Entering Customer details
-2025-07-17 11:36:51,358  INFO [main] TC_01_registrationTestcase:36 - Clicking on continue button
-2025-07-17 11:36:52,276  INFO [main] TC_01_registrationTestcase:38 - Validating succes messge and clicking on continue button
-2025-07-17 11:36:52,773  INFO [main] TC_01_registrationTestcase:53 - ******* Finished TC_01_registrationTestcase *******
-2025-07-17 12:29:26,424  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 12:29:27,426  INFO [main] TC01_loginTestCase:17 - Login Testcase Started
-2025-07-17 12:29:27,549  INFO [main] TC01_loginTestCase:20 - Clicked on my account
-2025-07-17 12:29:27,846  INFO [main] TC01_loginTestCase:22 - selected loginoption
-2025-07-17 12:29:28,115  INFO [main] TC01_loginTestCase:25 - login credentials enterd
-2025-07-17 12:29:28,654  INFO [main] TC01_loginTestCase:27 - clicked on login button
-2025-07-17 12:34:01,453  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 12:34:02,426  INFO [main] TC01_loginTestCase:18 - Login Testcase Started
-2025-07-17 12:34:02,546  INFO [main] TC01_loginTestCase:21 - Clicked on my account
-2025-07-17 12:34:02,844  INFO [main] TC01_loginTestCase:23 - selected loginoption
-2025-07-17 12:34:03,098  INFO [main] TC01_loginTestCase:32 - login credentials enterd
-2025-07-17 12:34:03,181  INFO [main] TC01_loginTestCase:34 - clicked on login button
-2025-07-17 14:02:53,844  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:02:57,548  INFO [main] TC01_loginTestCase:18 - Login Testcase Started
-2025-07-17 14:02:57,699  INFO [main] TC01_loginTestCase:21 - Clicked on my account
-2025-07-17 14:02:58,220  INFO [main] TC01_loginTestCase:23 - selected loginoption
-2025-07-17 14:02:58,583  INFO [main] TC01_loginTestCase:32 - login credentials enterd
-2025-07-17 14:02:59,145  INFO [main] TC01_loginTestCase:34 - clicked on login button
-2025-07-17 14:08:29,255  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:08:32,214  INFO [main] TC01_loginTestCase:20 - Login Testcase Started
-2025-07-17 14:08:32,384  INFO [main] TC01_loginTestCase:23 - Clicked on my account
-2025-07-17 14:08:32,713  INFO [main] TC01_loginTestCase:25 - selected loginoption
-2025-07-17 14:08:33,100  INFO [main] TC01_loginTestCase:34 - login credentials enterd
-2025-07-17 14:08:33,222  INFO [main] TC01_loginTestCase:36 - clicked on login button
-2025-07-17 14:08:33,981  INFO [main] TC01_loginTestCase:38 - clicked on my account
-2025-07-17 14:18:44,742  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:18:47,244  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:18:47,397  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:18:47,746  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:18:48,110  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:18:48,212  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:19:22,372  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:19:25,919  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:19:26,105  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:19:26,490  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:19:26,917  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:19:27,443  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:21:27,787  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:21:31,501  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:21:31,654  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:21:32,045  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:21:32,521  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:21:33,641  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:21:33,765  INFO [main] TC01_loginTestCase:45 - clicked on my account
-2025-07-17 14:22:15,112  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:22:17,313  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:22:17,486  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:22:17,819  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:22:18,206  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:22:18,318  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:22:38,563  INFO [main] TC01_loginTestCase:46 - clicked on my account
-2025-07-17 14:23:06,742  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:23:07,657  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:23:07,777  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:23:08,068  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:23:08,447  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:23:08,550  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:23:27,545  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:23:32,889  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:23:33,039  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:23:33,544  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:23:34,087  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:23:34,979  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:23:35,095  INFO [main] TC01_loginTestCase:45 - clicked on my account
-2025-07-17 14:24:35,833  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:24:43,971  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:24:44,139  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:24:46,774  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:24:47,272  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:24:47,403  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:25:07,576  INFO [main] TC01_loginTestCase:46 - clicked on my account
-2025-07-17 14:25:52,694  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:25:53,440  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:25:55,935  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:25:56,432  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:25:56,794  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:25:57,663  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:27:58,449  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:28:00,914  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:28:01,076  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:28:01,411  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:28:01,839  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:28:02,710  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:29:05,534  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:29:06,223  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:29:07,797  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:29:08,130  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:29:08,551  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:29:08,661  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:44:20,177  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:44:21,208  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:44:23,317  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:44:23,653  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:44:24,072  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:44:24,187  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:44:24,188  INFO [main] TC01_loginTestCase:42 - My Account Text is displayed
-2025-07-17 14:44:45,857  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:44:47,767  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:44:47,888  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:44:48,265  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:44:48,681  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:44:48,783  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:44:48,784  INFO [main] TC01_loginTestCase:42 - My Account Text is displayed
-2025-07-17 14:46:10,958  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:46:15,135  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:46:15,293  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:46:15,670  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:46:16,133  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:46:16,905  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:46:16,910  INFO [main] TC01_loginTestCase:42 - My Account Text is displayed
-2025-07-17 14:47:20,759  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:47:22,936  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:47:23,056  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:47:23,403  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:47:23,808  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:47:24,612  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:47:24,613  INFO [main] TC01_loginTestCase:42 - My Account Text is displayed
-2025-07-17 14:49:58,156  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:49:59,715  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:49:59,884  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:50:00,248  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:50:00,699  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:50:04,383  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:50:04,384  INFO [main] TC01_loginTestCase:42 - My Account Text is displayed
-2025-07-17 14:57:38,552  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:57:41,651  INFO [main] TC01_loginTestCase:24 - Login Testcase Started
-2025-07-17 14:57:41,831  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:57:42,201  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:57:42,559  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:57:43,446  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:57:43,447  INFO [main] TC01_loginTestCase:42 - My Account Text is displayed
-2025-07-17 14:57:43,447  INFO [main] TC01_loginTestCase:51 - ******* Finished TC_01_registrationTestcase *******
-2025-07-17 14:59:00,455  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:59:02,029  INFO [main] TC01_loginTestCase:24 - ******* Finished TC_01_Login Testcase *******
-2025-07-17 14:59:02,208  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:59:02,575  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 14:59:02,925  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 14:59:03,037  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 14:59:03,037  INFO [main] TC01_loginTestCase:42 - My Account Text is displayed
-2025-07-17 14:59:03,038  INFO [main] TC01_loginTestCase:51 - ******* Finished TC_01_Login Testcase *******
-2025-07-17 14:59:49,522  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 14:59:49,885  INFO [main] TC01_loginTestCase:24 - ******* Finished TC_01_Login Testcase *******
-2025-07-17 14:59:50,526  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 14:59:50,861  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 15:05:23,985  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 15:05:26,644  INFO [main] TC01_loginTestCase:24 - ******* Finished TC_01_Login Testcase *******
-2025-07-17 15:05:26,756  INFO [main] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 15:05:27,108  INFO [main] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 15:05:27,520  INFO [main] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 15:05:27,635  INFO [main] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 15:05:27,635  INFO [main] TC01_loginTestCase:42 - My Account Text is displayed
-2025-07-17 15:05:27,635  INFO [main] TC01_loginTestCase:51 - ******* Finished TC_01_Login Testcase *******
-2025-07-17 15:06:19,893  INFO [TestNG-tests-1] TC_01_registrationTestcase:100 - cookies deleted
-2025-07-17 15:06:21,978  INFO [TestNG-tests-1] TC_01_registrationTestcase:19 - ******* Started TC_01_registrationTestcase *******
-2025-07-17 15:06:21,985  INFO [TestNG-tests-1] TC_01_registrationTestcase:23 - Clicking on My account
-2025-07-17 15:06:22,117  INFO [TestNG-tests-1] TC_01_registrationTestcase:25 - Clicking on Register option
-2025-07-17 15:06:22,850  INFO [TestNG-tests-1] TC_01_registrationTestcase:28 - Entering Customer details
-2025-07-17 15:06:23,695  INFO [TestNG-tests-1] TC_01_registrationTestcase:36 - Clicking on continue button
-2025-07-17 15:06:24,481  INFO [TestNG-tests-1] TC_01_registrationTestcase:38 - Validating succes messge and clicking on continue button
-2025-07-17 15:06:24,975  INFO [TestNG-tests-1] TC_01_registrationTestcase:53 - ******* Finished TC_01_registrationTestcase *******
-2025-07-17 15:06:26,805  INFO [TestNG-tests-1] TC01_loginTestCase:100 - cookies deleted
-2025-07-17 15:06:29,600  INFO [TestNG-tests-1] TC01_loginTestCase:24 - ******* Finished TC_01_Login Testcase *******
-2025-07-17 15:06:29,728  INFO [TestNG-tests-1] TC01_loginTestCase:27 - Clicked on my account
-2025-07-17 15:06:30,155  INFO [TestNG-tests-1] TC01_loginTestCase:29 - selected loginoption
-2025-07-17 15:06:30,581  INFO [TestNG-tests-1] TC01_loginTestCase:38 - login credentials enterd
-2025-07-17 15:06:31,367  INFO [TestNG-tests-1] TC01_loginTestCase:40 - clicked on login button
-2025-07-17 15:06:31,368  INFO [TestNG-tests-1] TC01_loginTestCase:42 - My Account Text is displayed
-2025-07-17 15:06:31,368  INFO [TestNG-tests-1] TC01_loginTestCase:51 - ******* Finished TC_01_Login Testcase *******
+2025-07-18 12:21:45,040  INFO [main] TC01_loginTestCase:100 - cookies deleted
+2025-07-18 12:21:47,962  INFO [main] TC01_loginTestCase:29 - ******* Finished TC_01_Login Testcase *******
+2025-07-18 12:21:48,097  INFO [main] TC01_loginTestCase:31 - Clicked on my account
+2025-07-18 12:21:48,444  INFO [main] TC01_loginTestCase:33 - selected loginoption
+2025-07-18 12:21:48,758  INFO [main] TC01_loginTestCase:41 - login credentials enterd
+2025-07-18 12:21:48,858  INFO [main] TC01_loginTestCase:43 - clicked on login button
+2025-07-18 12:21:50,918  INFO [main] TC01_loginTestCase:46 - My Account Text is displayed
+2025-07-18 12:21:52,970  INFO [main] TC01_loginTestCase:49 - logout link is displayed
+2025-07-18 12:21:53,637  INFO [main] TC01_loginTestCase:51 - clicked on logout link
+2025-07-18 12:22:04,036  INFO [main] TC01_loginTestCase:100 - cookies deleted
+2025-07-18 12:22:06,150  INFO [main] TC01_loginTestCase:29 - ******* Finished TC_01_Login Testcase *******
+2025-07-18 12:22:06,298  INFO [main] TC01_loginTestCase:31 - Clicked on my account
+2025-07-18 12:22:06,607  INFO [main] TC01_loginTestCase:33 - selected loginoption
+2025-07-18 12:22:14,632  INFO [main] TC01_loginTestCase:100 - cookies deleted
+2025-07-18 12:22:15,353  INFO [main] TC01_loginTestCase:29 - ******* Finished TC_01_Login Testcase *******
+2025-07-18 12:22:16,819  INFO [main] TC01_loginTestCase:31 - Clicked on my account
+2025-07-18 12:22:17,125  INFO [main] TC01_loginTestCase:33 - selected loginoption
+2025-07-18 12:22:17,527  INFO [main] TC01_loginTestCase:41 - login credentials enterd
+2025-07-18 12:22:17,634  INFO [main] TC01_loginTestCase:43 - clicked on login button
+2025-07-18 12:22:18,324  INFO [main] TC01_loginTestCase:45 - My Account Text is displayed
+2025-07-18 12:22:18,352  INFO [main] TC01_loginTestCase:47 - logout link is displayed
+2025-07-18 12:22:18,757  INFO [main] TC01_loginTestCase:49 - clicked on logout link
+2025-07-18 12:22:18,814  INFO [main] TC01_loginTestCase:51 - account logout text is displayed
+2025-07-18 12:22:18,814  INFO [main] TC01_loginTestCase:55 - ******* Finished TC_01_Login Testcase *******
+2025-07-18 13:07:11,831  INFO [main] TC03_LoginDDT:100 - cookies deleted
+2025-07-18 13:08:00,913  INFO [main] TC03_LoginDDT:100 - cookies deleted
+2025-07-18 13:09:47,904  INFO [main] TC03_LoginDDT:100 - cookies deleted
+2025-07-18 13:10:43,294  INFO [main] TC03_LoginDDT:100 - cookies deleted
+2025-07-18 13:13:06,260  INFO [main] TC03_LoginDDT:100 - cookies deleted
+2025-07-18 13:15:40,936  INFO [main] TC03_LoginDDT:100 - cookies deleted

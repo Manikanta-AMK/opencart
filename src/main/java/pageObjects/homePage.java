@@ -16,6 +16,8 @@ public class homePage extends basePage {
 	@FindBy(xpath="//a[@title='My Account']") WebElement myAccountDropDown;
 	@FindBy(xpath="//a[normalize-space()='Register']") WebElement registerOption;
 	@FindBy(xpath="//a[normalize-space()='Login']") WebElement loginOption;
+	@FindBy(xpath="//h1[normalize-space()='Account Logout']") WebElement txtAccountLogout;
+	
 	
 	public void clickOnMyAccount()
 	{
@@ -32,4 +34,13 @@ public class homePage extends basePage {
 		loginOption.click();
 	}
 	
+	public boolean  txtAccountLogoutIsDisplayed()
+	{
+		try {
+		return txtAccountLogout.isDisplayed();
+		}catch(Exception e) {
+			return false;
+		}
+
+	}
 }

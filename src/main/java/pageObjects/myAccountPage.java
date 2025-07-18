@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import io.reactivex.rxjava3.exceptions.Exceptions;
 import testBase.basePage;
 
 public class myAccountPage extends basePage {
@@ -14,21 +13,21 @@ public class myAccountPage extends basePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath="//span[normalize-space()='My Account']") WebElement myAccount;
-	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']") WebElement logoutOption;
+	@FindBy(xpath="//span[normalize-space()='My Account']") WebElement myAccountdropdown;
+//	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']") WebElement logoutLink;
+	@FindBy(xpath = "//div[@class='list-group']//a[text()='Logout']") WebElement lnkLogout;
 	@FindBy(xpath="//h2[normalize-space()='My Account']") WebElement  txtMyAccount;
+	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']") WebElement logoutLinkFromDropdown;
 	
-	
-	
-	public void clickOnMyAccountbutton()
+	public void clickOnMyAccountdropdown()
 	{
-		myAccount.click();
+		myAccountdropdown.click();
 	}
 	
-	public boolean  logoutOptionIsDisplayed()
+	public boolean  logoutLinkIsDisplayed()
 	{
 		try {
-		return logoutOption.isDisplayed();
+		return lnkLogout.isDisplayed();
 		}catch(Exception e){
 			return false;
 		}
@@ -41,5 +40,15 @@ public class myAccountPage extends basePage {
 		}catch(Exception e) {
 			return false;
 		}
+	}
+	
+	public void clickOnLogoutLink()
+	{
+		lnkLogout.click();
+	}
+	
+	public void logout()
+	{
+		logoutLinkFromDropdown.click();
 	}
 }

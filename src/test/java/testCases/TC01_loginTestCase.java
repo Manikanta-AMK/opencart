@@ -1,9 +1,5 @@
 package testCases;
 
-import java.time.Duration;
-
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,19 +11,22 @@ import testBase.BaseTest;
 @Test
 public class TC01_loginTestCase extends BaseTest {
 
-	homePage hp = new homePage(driver);
-	loginPage lp = new loginPage(driver);
-	myAccountPage map = new myAccountPage(driver);
+	homePage hp;
+	loginPage lp;
+	myAccountPage map;
 
 	public void loginTest() throws InterruptedException {
 		try {
-			log.info("******* Finished TC_01_Login Testcase *******");
+			
 			hp = new homePage(driver);
+			lp = new loginPage(driver);
+			map = new myAccountPage(driver);
+			
+			log.info("******* Finished TC_01_Login Testcase *******");
 			hp.clickOnMyAccount();
 			log.info("Clicked on my account");
 			hp.selectLoginOption();
 			log.info("selected loginoption");
-			lp = new loginPage(driver);
 			if (lp.validateReturningCustomerText().isDisplayed()) {
 				Assert.assertEquals(lp.validateReturningCustomerText().getText(), "Returning Customer",
 						"Return Customer Text is mismatching");
@@ -38,17 +37,17 @@ public class TC01_loginTestCase extends BaseTest {
 			log.info("login credentials enterd");
 			lp.clickOnLoginBtn();
 			log.info("clicked on login button");
-			map.txtMyAccountIsDisplayed();
+			Assert.assertTrue(map.txtMyAccountIsDisplayed());
 			log.info("My Account Text is displayed");
-//		Thread.sleep(2000);
-//		map.clickOnMyAccountbutton();
-//		log.info("clicked on my account");
-//		map.logoutOptionIsDisplayed();
-//		log.info("logout option is displayed");
+			Assert.assertTrue(map.logoutLinkIsDisplayed());
+			log.info("logout link is displayed");
+			map.clickOnLogoutLink();
+			log.info("clicked on logout link");
+			Assert.assertTrue(hp.txtAccountLogoutIsDisplayed());
+			log.info("account logout text is displayed");
 		} catch (Exception e) {
 			Assert.fail();
 		}
 		log.info("******* Finished TC_01_Login Testcase *******");
 	}
-
 }

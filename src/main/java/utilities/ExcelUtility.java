@@ -14,7 +14,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class filelib2 {
+public class ExcelUtility {
 
 	public FileInputStream fi;
 	public FileOutputStream fo;
@@ -25,7 +25,7 @@ public class filelib2 {
 	public CellStyle style;   
 	String path;
 	
-	public filelib2(String path)
+	public ExcelUtility(String path)
 	{
 		this.path=path;
 	}
