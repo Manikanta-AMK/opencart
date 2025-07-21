@@ -5,7 +5,7 @@
     <classes>
       <class name="testCases.TC03_LoginDDT">
         <methods>
-          <include name="Verify_LoginDDT"/>
+          <include name="Verify_LoginDDT" invocation-numbers="0 1 2 3 4"/>
           <include name="initialization"/>
           <include name="teardown"/>
         </methods>

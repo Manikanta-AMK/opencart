@@ -1,61 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-18T13:15:37 IST" name="Default suite" finished-at="2025-07-18T13:15:46 IST" duration-ms="8372">
+  <suite started-at="2025-07-21T11:43:38 IST" name="Default suite" finished-at="2025-07-21T11:44:10 IST" duration-ms="32408">
     <groups>
     </groups>
-    <test started-at="2025-07-18T13:15:37 IST" name="Default test" finished-at="2025-07-18T13:15:46 IST" duration-ms="8372">
+    <test started-at="2025-07-21T11:43:38 IST" name="Default test" finished-at="2025-07-21T11:44:10 IST" duration-ms="32408">
       <class name="testCases.TC03_LoginDDT">
-        <test-method is-config="true" signature="initialization()[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-18T13:15:37 IST" name="initialization" finished-at="2025-07-18T13:15:42 IST" duration-ms="5014" status="PASS">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-21T11:43:38 IST" name="initialization" finished-at="2025-07-21T11:43:41 IST" duration-ms="3016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method signature="Verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-18T13:15:42 IST" name="Verify_LoginDDT" data-provider="LoginData" finished-at="2025-07-18T13:15:45 IST" duration-ms="3015" status="FAIL">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
-            <message>
-              <![CDATA[
-[public void testCases.TC03_LoginDDT.Verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: Verify_LoginDDT([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2])
-Arguments: [(java.lang.String) ethanhunt@gmail.com,(java.lang.String) Blackbeast319@!,(java.lang.String) valid,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-[public void testCases.TC03_LoginDDT.Verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: Verify_LoginDDT([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2])
-Arguments: [(java.lang.String) ethanhunt@gmail.com,(java.lang.String) Blackbeast319@!,(java.lang.String) valid,(java.lang.String) ,(java.lang.String) ,(java.lang.String) ]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:915)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+        <test-method signature="Verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-21T11:43:42 IST" name="Verify_LoginDDT" data-provider="LoginData" finished-at="2025-07-21T11:43:54 IST" duration-ms="12166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ethanhunt@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blackbeast319@!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_LoginDDT -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-18T13:15:45 IST" name="teardown" finished-at="2025-07-18T13:15:46 IST" duration-ms="286" status="PASS">
+        <test-method signature="Verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-21T11:43:54 IST" name="Verify_LoginDDT" data-provider="LoginData" finished-at="2025-07-21T11:43:56 IST" duration-ms="1863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ethanhut@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blackbeast31@!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginDDT -->
+        <test-method signature="Verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-21T11:43:56 IST" name="Verify_LoginDDT" data-provider="LoginData" finished-at="2025-07-21T11:43:57 IST" duration-ms="917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ethanhut@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blackbeast31@!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginDDT -->
+        <test-method signature="Verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-21T11:43:57 IST" name="Verify_LoginDDT" data-provider="LoginData" finished-at="2025-07-21T11:43:58 IST" duration-ms="856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ethanhut@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blackbeast31@!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginDDT -->
+        <test-method signature="Verify_LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-21T11:43:58 IST" name="Verify_LoginDDT" data-provider="LoginData" finished-at="2025-07-21T11:44:10 IST" duration-ms="11925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ethanhunt@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blackbeast319@!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoginDDT -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC03_LoginDDT@4d1c005e]" started-at="2025-07-21T11:44:10 IST" name="teardown" finished-at="2025-07-21T11:44:10 IST" duration-ms="306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

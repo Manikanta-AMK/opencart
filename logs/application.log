@@ -1,30 +1,47 @@
-2025-07-18 12:21:45,040  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-18 12:21:47,962  INFO [main] TC01_loginTestCase:29 - ******* Finished TC_01_Login Testcase *******
-2025-07-18 12:21:48,097  INFO [main] TC01_loginTestCase:31 - Clicked on my account
-2025-07-18 12:21:48,444  INFO [main] TC01_loginTestCase:33 - selected loginoption
-2025-07-18 12:21:48,758  INFO [main] TC01_loginTestCase:41 - login credentials enterd
-2025-07-18 12:21:48,858  INFO [main] TC01_loginTestCase:43 - clicked on login button
-2025-07-18 12:21:50,918  INFO [main] TC01_loginTestCase:46 - My Account Text is displayed
-2025-07-18 12:21:52,970  INFO [main] TC01_loginTestCase:49 - logout link is displayed
-2025-07-18 12:21:53,637  INFO [main] TC01_loginTestCase:51 - clicked on logout link
-2025-07-18 12:22:04,036  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-18 12:22:06,150  INFO [main] TC01_loginTestCase:29 - ******* Finished TC_01_Login Testcase *******
-2025-07-18 12:22:06,298  INFO [main] TC01_loginTestCase:31 - Clicked on my account
-2025-07-18 12:22:06,607  INFO [main] TC01_loginTestCase:33 - selected loginoption
-2025-07-18 12:22:14,632  INFO [main] TC01_loginTestCase:100 - cookies deleted
-2025-07-18 12:22:15,353  INFO [main] TC01_loginTestCase:29 - ******* Finished TC_01_Login Testcase *******
-2025-07-18 12:22:16,819  INFO [main] TC01_loginTestCase:31 - Clicked on my account
-2025-07-18 12:22:17,125  INFO [main] TC01_loginTestCase:33 - selected loginoption
-2025-07-18 12:22:17,527  INFO [main] TC01_loginTestCase:41 - login credentials enterd
-2025-07-18 12:22:17,634  INFO [main] TC01_loginTestCase:43 - clicked on login button
-2025-07-18 12:22:18,324  INFO [main] TC01_loginTestCase:45 - My Account Text is displayed
-2025-07-18 12:22:18,352  INFO [main] TC01_loginTestCase:47 - logout link is displayed
-2025-07-18 12:22:18,757  INFO [main] TC01_loginTestCase:49 - clicked on logout link
-2025-07-18 12:22:18,814  INFO [main] TC01_loginTestCase:51 - account logout text is displayed
-2025-07-18 12:22:18,814  INFO [main] TC01_loginTestCase:55 - ******* Finished TC_01_Login Testcase *******
-2025-07-18 13:07:11,831  INFO [main] TC03_LoginDDT:100 - cookies deleted
-2025-07-18 13:08:00,913  INFO [main] TC03_LoginDDT:100 - cookies deleted
-2025-07-18 13:09:47,904  INFO [main] TC03_LoginDDT:100 - cookies deleted
-2025-07-18 13:10:43,294  INFO [main] TC03_LoginDDT:100 - cookies deleted
-2025-07-18 13:13:06,260  INFO [main] TC03_LoginDDT:100 - cookies deleted
-2025-07-18 13:15:40,936  INFO [main] TC03_LoginDDT:100 - cookies deleted
+2025-07-21 11:43:40,172  INFO [main] TC03_LoginDDT:100 - cookies deleted
+2025-07-21 11:43:42,427  INFO [main] TC03_LoginDDT:26 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-21 11:43:42,507  INFO [main] TC03_LoginDDT:28 - Clicked on my account
+2025-07-21 11:43:42,826  INFO [main] TC03_LoginDDT:30 - selected loginoption
+2025-07-21 11:43:42,967  INFO [main] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-21 11:43:43,180  INFO [main] TC03_LoginDDT:40 - login credentials enterd
+2025-07-21 11:43:43,267  INFO [main] TC03_LoginDDT:42 - clicked on login button
+2025-07-21 11:43:53,352  INFO [main] TC03_LoginDDT:48 - My Account Text is displayed
+2025-07-21 11:43:53,376  INFO [main] TC03_LoginDDT:50 - logout link is displayed
+2025-07-21 11:43:54,536  INFO [main] TC03_LoginDDT:52 - clicked on logout link
+2025-07-21 11:43:54,565  INFO [main] TC03_LoginDDT:54 - account logout text is displayed
+2025-07-21 11:43:54,565  INFO [main] TC03_LoginDDT:80 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-21 11:43:54,571  INFO [main] TC03_LoginDDT:26 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-21 11:43:54,650  INFO [main] TC03_LoginDDT:28 - Clicked on my account
+2025-07-21 11:43:55,418  INFO [main] TC03_LoginDDT:30 - selected loginoption
+2025-07-21 11:43:55,513  INFO [main] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-21 11:43:55,733  INFO [main] TC03_LoginDDT:40 - login credentials enterd
+2025-07-21 11:43:55,819  INFO [main] TC03_LoginDDT:42 - clicked on login button
+2025-07-21 11:43:56,431  INFO [main] TC03_LoginDDT:63 - warning message is displayed 
+2025-07-21 11:43:56,431  INFO [main] TC03_LoginDDT:80 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-21 11:43:56,434  INFO [main] TC03_LoginDDT:26 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-21 11:43:56,516  INFO [main] TC03_LoginDDT:28 - Clicked on my account
+2025-07-21 11:43:56,770  INFO [main] TC03_LoginDDT:30 - selected loginoption
+2025-07-21 11:43:56,815  INFO [main] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-21 11:43:57,007  INFO [main] TC03_LoginDDT:40 - login credentials enterd
+2025-07-21 11:43:57,221  INFO [main] TC03_LoginDDT:42 - clicked on login button
+2025-07-21 11:43:57,349  INFO [main] TC03_LoginDDT:63 - warning message is displayed 
+2025-07-21 11:43:57,349  INFO [main] TC03_LoginDDT:80 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-21 11:43:57,352  INFO [main] TC03_LoginDDT:26 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-21 11:43:57,426  INFO [main] TC03_LoginDDT:28 - Clicked on my account
+2025-07-21 11:43:57,681  INFO [main] TC03_LoginDDT:30 - selected loginoption
+2025-07-21 11:43:57,724  INFO [main] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-21 11:43:57,909  INFO [main] TC03_LoginDDT:40 - login credentials enterd
+2025-07-21 11:43:57,976  INFO [main] TC03_LoginDDT:42 - clicked on login button
+2025-07-21 11:43:58,205  INFO [main] TC03_LoginDDT:63 - warning message is displayed 
+2025-07-21 11:43:58,207  INFO [main] TC03_LoginDDT:80 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-21 11:43:58,209  INFO [main] TC03_LoginDDT:26 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-21 11:43:58,281  INFO [main] TC03_LoginDDT:28 - Clicked on my account
+2025-07-21 11:43:58,500  INFO [main] TC03_LoginDDT:30 - selected loginoption
+2025-07-21 11:43:58,543  INFO [main] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-21 11:43:58,777  INFO [main] TC03_LoginDDT:40 - login credentials enterd
+2025-07-21 11:43:59,498  INFO [main] TC03_LoginDDT:42 - clicked on login button
+2025-07-21 11:44:09,573  INFO [main] TC03_LoginDDT:48 - My Account Text is displayed
+2025-07-21 11:44:09,609  INFO [main] TC03_LoginDDT:50 - logout link is displayed
+2025-07-21 11:44:10,107  INFO [main] TC03_LoginDDT:52 - clicked on logout link
+2025-07-21 11:44:10,133  INFO [main] TC03_LoginDDT:54 - account logout text is displayed
+2025-07-21 11:44:10,133  INFO [main] TC03_LoginDDT:80 - ******* Finished TC_03_Verify_LoginDDT *******
