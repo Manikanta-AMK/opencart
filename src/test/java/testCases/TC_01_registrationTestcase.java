@@ -14,7 +14,7 @@ public class TC_01_registrationTestcase extends BaseTest {
 	commonlib cmLib = new commonlib();
 	
 
-	@Test()
+	@Test(groups={"Regression","Sanity","Smoke","Master"})
 	public void Registration() throws InterruptedException {
 		log.info("******* Started TC_01_registrationTestcase *******");
 		try {

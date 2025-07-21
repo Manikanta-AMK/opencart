@@ -15,7 +15,7 @@ public class TC03_LoginDDT extends BaseTest {
 	loginPage lp;
 	myAccountPage map;
 
-	@Test(dataProvider = "LoginData", dataProviderClass = dataprovider.class)
+	@Test(dataProvider = "LoginData", dataProviderClass = dataprovider.class, groups="Datadriven")
 	public void Verify_LoginDDT(String email, String password, String exp) {
 
 		try {

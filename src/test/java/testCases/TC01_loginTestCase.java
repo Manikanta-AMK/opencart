@@ -8,13 +8,13 @@ import pageObjects.loginPage;
 import pageObjects.myAccountPage;
 import testBase.BaseTest;
 
-@Test
 public class TC01_loginTestCase extends BaseTest {
 
 	homePage hp;
 	loginPage lp;
 	myAccountPage map;
 
+	@Test(groups={"Regression","Sanity","Smoke","Master"})
 	public void loginTest() throws InterruptedException {
 		try {
 			

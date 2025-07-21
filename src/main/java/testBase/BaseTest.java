@@ -1,10 +1,13 @@
 package testBase;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 
 //import org.apache.logging.log4j.Logger;
@@ -13,6 +16,8 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.LogManager;
 
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -42,7 +47,7 @@ public class BaseTest {
 
 	public ExtentReports extent;
 	public ExtentTest logger;
-	public WebDriver driver;
+	public static WebDriver driver;
 	public Logger log;
 	public Properties prop;
 	public ExtentSparkReporter sparkReporter;
@@ -60,8 +65,8 @@ public class BaseTest {
 		}
 	}
 	
-	@BeforeClass
-	//@Parameters({"os","browser"})   //String os, String br required while running through xml file
+	@BeforeClass(groups={"Regression","Sanity","Smoke","Master",})
+	@Parameters({"os","browser"})   //String os, String br required while running through xml file
 	public void initialization() { 
 		log = LogManager.getLogger(this.getClass());
 		PropertyConfigurator.configure(constants.log4jPath);
@@ -163,9 +168,19 @@ public class BaseTest {
 //		extent.flush();
 //	}
 
-	@AfterClass
+	@AfterClass(groups={"Regression","Sanity","Smoke","Master"})
 	public void teardown() {
 		driver.quit();
 	}
-
+	
+	public String captureScreen(String tname) throws IOException 
+	{
+		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
+		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		File targetFile=new File(targetFilePath);
+		sourceFile.renameTo(targetFile);
+		return targetFilePath;
+	}
 }
