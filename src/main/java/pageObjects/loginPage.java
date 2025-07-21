@@ -42,7 +42,7 @@ public class loginPage extends basePage {
 		linkForgotPassword.click();
 	}
 
-	public boolean validateWarningMessage() {
+	public boolean validateWarningMessageIsDisplayed() {
 		try {
 			return msgWarning.isDisplayed();
 		} catch (Exception e) {

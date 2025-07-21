@@ -15,7 +15,7 @@ public class TC03_LoginDDT extends BaseTest {
 	loginPage lp;
 	myAccountPage map;
 
-	@Test(dataProvider = "LoginData", dataProviderClass = dataprovider.class, groups="Datadriven")
+	@Test(dataProvider = "LoginData", dataProviderClass = dataprovider.class, groups = "Datadriven")
 	public void Verify_LoginDDT(String email, String password, String exp) {
 
 		try {
@@ -23,7 +23,7 @@ public class TC03_LoginDDT extends BaseTest {
 			lp = new loginPage(driver);
 			map = new myAccountPage(driver);
 
-			log.info("******* Finished TC_03_Verify_LoginDDT *******");
+			log.info("******* Started TC_03_Verify_LoginDDT *******");
 			hp.clickOnMyAccount();
 			log.info("Clicked on my account");
 			hp.selectLoginOption();
@@ -35,16 +35,14 @@ public class TC03_LoginDDT extends BaseTest {
 			} else {
 				log.info("Return Customer text is not displayed");
 			}
-			
+
 			lp.enterLoginCredentials(email, password);
 			log.info("login credentials enterd");
 			lp.clickOnLoginBtn();
 			log.info("clicked on login button");
 
 			if (exp.equalsIgnoreCase("valid")) {
-				if (lp.validateWarningMessage() == true) {
-					log.info("warning message is not displayed ");
-				} else if (map.txtMyAccountIsDisplayed() == true) {
+				 if (map.txtMyAccountIsDisplayed() == true) {
 					log.info("My Account Text is displayed");
 					Assert.assertTrue(map.logoutLinkIsDisplayed());
 					log.info("logout link is displayed");
@@ -59,16 +57,10 @@ public class TC03_LoginDDT extends BaseTest {
 		}
 
 			if (exp.equalsIgnoreCase("invalid")) {
-				if (lp.validateWarningMessage() == true) {
+				if (lp.validateWarningMessageIsDisplayed() == true) {
 					log.info("warning message is displayed ");
-				} else if (map.txtMyAccountIsDisplayed() == true) {
-					log.info("My Account Text is displayed");
-					Assert.assertTrue(map.logoutLinkIsDisplayed());
+				} else if (lp.validateWarningMessageIsDisplayed() == false) {
 					log.info("logout link is displayed");
-					map.clickOnLogoutLink();
-					log.info("clicked on logout link");
-					Assert.assertTrue(hp.txtAccountLogoutIsDisplayed());
-					log.info("account logout text is displayed");
 					Assert.assertTrue(false);
 				} else {
 					Assert.assertTrue(true);
