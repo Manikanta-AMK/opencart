@@ -9,7 +9,7 @@ import pageObjects.registrationPage;
 import testBase.BaseTest;
 import utilities.commonlib;
 
-public class TC_01_registrationTestcase extends BaseTest {
+public class TC01_registrationTestcase extends BaseTest {
 
 	commonlib cmLib = new commonlib();
 	

@@ -18,7 +18,7 @@
 	<parameter name="os" value="windows"></parameter>
   <parameter name="browser" value="chrome"></parameter>
 		<classes>
-			<class name="testCases.TC_01_registrationTestcase" />
+			<class name="testCases.TC01_registrationTestcase" />
 			<class name="testCases.TC01_loginTestCase"></class>
 			<class name="testCases.TC03_LoginDDT"></class>
 		</classes>

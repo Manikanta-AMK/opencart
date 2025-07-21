@@ -6,17 +6,17 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="TC_01_registrationTestcase_chrome(failed)">
+  <test thread-count="5" parallel="tests" name="TC01_loginTestCase(failed)">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC03_LoginDDT">
+      <class name="testCases.TC01_loginTestCase">
         <methods>
-          <include name="Verify_LoginDDT" invocation-numbers="1"/>
+          <include name="loginTest"/>
           <include name="initialization"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- testCases.TC03_LoginDDT -->
+      </class> <!-- testCases.TC01_loginTestCase -->
     </classes>
-  </test> <!-- TC_01_registrationTestcase_chrome(failed) -->
+  </test> <!-- TC01_loginTestCase(failed) -->
 </suite> <!-- Failed suite [Suite] -->

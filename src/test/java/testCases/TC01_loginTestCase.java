@@ -22,7 +22,7 @@ public class TC01_loginTestCase extends BaseTest {
 			lp = new loginPage(driver);
 			map = new myAccountPage(driver);
 			
-			log.info("******* Finished TC_01_Login Testcase *******");
+			log.info("******* Started TC_01_Login Testcase *******");
 			hp.clickOnMyAccount();
 			log.info("Clicked on my account");
 			hp.selectLoginOption();

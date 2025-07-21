@@ -3,6 +3,8 @@ package utilities;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -14,6 +16,7 @@ import org.apache.commons.mail.resolver.DataSourceUrlResolver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.annotations.ITestAnnotation;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -132,6 +135,11 @@ public class ExtentReportManager implements ITestListener {
 			  e.printStackTrace(); 
 			  }
 		 */
+	}
+	
+	public void transform(
+		      ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
+            annotation.setRetryAnalyzer(retryAnalyzer.class);
 	}
 
 }
