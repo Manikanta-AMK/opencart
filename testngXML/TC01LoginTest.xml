@@ -4,9 +4,8 @@
 	<listeners>
 		<listener class-name="utilities.ExtentReportManager"></listener>
 	</listeners>
-	<parameter name="os" value="windows11"></parameter>
-	<parameter name="browser" value="chrome"></parameter>
-	<test name="TC01_loginTestCase">
+
+	<test name="TC01_loginTestCase_chrome">
 		<parameter name="os" value="windows"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
@@ -14,21 +13,21 @@
 		</classes>
 	</test>
 
-	<!--  <test  name="TC_01_registrationTestcase_firefox">
-  <parameter name="os" value="windows"></parameter>
-  <parameter name="browser" value="firefox"></parameter>
-    <classes>
-      <class name="testCases.TC01_loginTestCase"/>
-    </classes>
-  </test>
-  
-  <test name="TC_01_registrationTestcase_edge">
-  <parameter name="os" value="windows"></parameter>
-  <parameter name="browser" value="edge"></parameter>
-    <classes>
-      <class name="testCases.TC01_loginTestCase"/>
-    </classes>
-  </test>  -->
+	 <test name="TC01_loginTestCase_firefox">
+		<parameter name="os" value="windows"></parameter>
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="testCases.TC01_loginTestCase" />
+		</classes>
+	</test>
 
-</suite> <!--
-Suite -->
+	  <test name="TC01_loginTestCase_edge">
+		<parameter name="os" value="windows"></parameter>
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="testCases.TC01_loginTestCase" />
+		</classes>
+	</test> 
+
+</suite> 
+

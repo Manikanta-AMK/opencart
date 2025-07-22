@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.SimpleDateFormat;
@@ -12,11 +11,10 @@ import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
 
+import org.apache.log4j.LogManager;
 //import org.apache.logging.log4j.Logger;
 //import org.apache.logging.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.apache.log4j.LogManager;
-
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
@@ -27,22 +25,13 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.ITestContext;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
-import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.constants;
@@ -95,10 +84,10 @@ public class BaseTest {
 				Capabilities.setBrowserName("chrome");
 				break;
 			case "firefox":
-				Capabilities.setBrowserName("edge");
+				Capabilities.setBrowserName("firefox");
 				break;
 			case "edge":
-				Capabilities.setBrowserName("firefox");
+				Capabilities.setBrowserName("MicrosoftEdge");
 				break;
 			default:
 				System.out.println("Invalid browser name");
