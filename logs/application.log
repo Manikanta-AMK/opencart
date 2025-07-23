@@ -1367,3 +1367,413 @@
 2025-07-23 19:09:58,814 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2025-07-23 19:09:58,815 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2025-07-23 19:09:58,816 DEBUG [TestNG-tests-1] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2025-07-23 19:12:59,309  INFO [TestNG-tests-1] TC01_registrationTestcase:116 - cookies deleted
+2025-07-23 19:13:05,668  INFO [TestNG-tests-1] TC01_registrationTestcase:19 - ******* Started TC_01_registrationTestcase *******
+2025-07-23 19:13:05,703  INFO [TestNG-tests-1] TC01_registrationTestcase:23 - Clicking on My account
+2025-07-23 19:13:05,878  INFO [TestNG-tests-1] TC01_registrationTestcase:25 - Clicking on Register option
+2025-07-23 19:13:06,995  INFO [TestNG-tests-1] TC01_registrationTestcase:28 - Entering Customer details
+2025-07-23 19:13:08,006  INFO [TestNG-tests-1] TC01_registrationTestcase:36 - Clicking on continue button
+2025-07-23 19:13:08,980  INFO [TestNG-tests-1] TC01_registrationTestcase:38 - Validating succes messge and clicking on continue button
+2025-07-23 19:13:09,602  INFO [TestNG-tests-1] TC01_registrationTestcase:53 - ******* Finished TC_01_registrationTestcase *******
+2025-07-23 19:13:12,004  INFO [TestNG-tests-1] TC01_loginTestCase:116 - cookies deleted
+2025-07-23 19:13:14,741  INFO [TestNG-tests-1] TC01_loginTestCase:25 - ******* Started TC_01_Login Testcase *******
+2025-07-23 19:13:14,874  INFO [TestNG-tests-1] TC01_loginTestCase:27 - Clicked on my account
+2025-07-23 19:13:15,170  INFO [TestNG-tests-1] TC01_loginTestCase:29 - selected loginoption
+2025-07-23 19:13:15,514  INFO [TestNG-tests-1] TC01_loginTestCase:37 - login credentials enterd
+2025-07-23 19:13:15,610  INFO [TestNG-tests-1] TC01_loginTestCase:39 - clicked on login button
+2025-07-23 19:13:16,344  INFO [TestNG-tests-1] TC01_loginTestCase:41 - My Account Text is displayed
+2025-07-23 19:13:16,379  INFO [TestNG-tests-1] TC01_loginTestCase:43 - logout link is displayed
+2025-07-23 19:13:17,052  INFO [TestNG-tests-1] TC01_loginTestCase:45 - clicked on logout link
+2025-07-23 19:13:17,121  INFO [TestNG-tests-1] TC01_loginTestCase:47 - account logout text is displayed
+2025-07-23 19:13:17,121  INFO [TestNG-tests-1] TC01_loginTestCase:51 - ******* Finished TC_01_Login Testcase *******
+2025-07-23 19:13:19,178  INFO [TestNG-tests-1] TC03_LoginDDT:116 - cookies deleted
+2025-07-23 19:13:24,362  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:24,510  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:13:25,513  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:13:25,612  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:13:25,910  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:13:26,827  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:13:26,875  INFO [TestNG-tests-1] TC03_LoginDDT:46 - My Account Text is displayed
+2025-07-23 19:13:26,906  INFO [TestNG-tests-1] TC03_LoginDDT:48 - logout link is displayed
+2025-07-23 19:13:27,550  INFO [TestNG-tests-1] TC03_LoginDDT:50 - clicked on logout link
+2025-07-23 19:13:27,607  INFO [TestNG-tests-1] TC03_LoginDDT:52 - account logout text is displayed
+2025-07-23 19:13:27,607  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:27,614  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:27,715  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:13:28,286  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:13:28,379  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:13:28,739  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:13:29,698  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:13:29,742  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:13:29,743  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:29,753  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:29,869  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:13:30,404  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:13:30,462  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:13:30,806  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:13:31,171  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:13:31,333  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:13:31,334  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:31,338  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:31,502  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:13:31,856  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:13:31,916  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:13:32,201  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:13:33,103  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:13:33,137  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:13:33,138  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:33,139  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:33,237  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:13:33,781  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:13:33,854  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:13:34,061  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:13:34,171  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:13:35,974  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:13:35,975  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:35,979  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:36,097  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:13:36,485  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:13:36,554  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:13:36,821  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:13:37,508  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:13:37,556  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:13:37,557  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:37,560  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:37,677  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:13:38,024  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:13:38,087  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:13:38,255  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:13:39,021  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:13:39,057  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:13:39,057  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:39,060  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:39,163  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:13:39,537  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:13:39,603  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:13:39,916  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:13:40,024  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:13:40,738  INFO [TestNG-tests-1] TC03_LoginDDT:46 - My Account Text is displayed
+2025-07-23 19:13:40,770  INFO [TestNG-tests-1] TC03_LoginDDT:48 - logout link is displayed
+2025-07-23 19:13:41,340  INFO [TestNG-tests-1] TC03_LoginDDT:50 - clicked on logout link
+2025-07-23 19:13:41,457  INFO [TestNG-tests-1] TC03_LoginDDT:52 - account logout text is displayed
+2025-07-23 19:13:41,458  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:13:43,509 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,511 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2025-07-23 19:13:43,513 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2025-07-23 19:13:43,515 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2025-07-23 19:13:43,516 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2025-07-23 19:13:43,634 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,635 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2025-07-23 19:13:43,636 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2025-07-23 19:13:43,637 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2025-07-23 19:13:43,637 DEBUG [TestNG-tests-1] cache:45 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2025-07-23 19:13:43,859 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,861 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2025-07-23 19:13:43,862 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2025-07-23 19:13:43,864 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2025-07-23 19:13:43,865 DEBUG [TestNG-tests-1] cache:45 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2025-07-23 19:13:43,879 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,881 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2025-07-23 19:13:43,883 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2025-07-23 19:13:43,884 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2025-07-23 19:13:43,885 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2025-07-23 19:13:43,888 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,889 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2025-07-23 19:13:43,890 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2025-07-23 19:13:43,891 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2025-07-23 19:13:43,892 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2025-07-23 19:13:43,895 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,896 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2025-07-23 19:13:43,898 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2025-07-23 19:13:43,899 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2025-07-23 19:13:43,900 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2025-07-23 19:13:43,910 DEBUG [TestNG-tests-1] cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:43,911 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,911 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2025-07-23 19:13:43,913 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2025-07-23 19:13:43,915 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2025-07-23 19:13:43,916 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2025-07-23 19:13:43,931 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,933 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2025-07-23 19:13:43,934 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2025-07-23 19:13:43,936 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2025-07-23 19:13:43,936 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2025-07-23 19:13:43,944 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,946 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2025-07-23 19:13:43,947 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2025-07-23 19:13:43,949 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2025-07-23 19:13:43,951 DEBUG [TestNG-tests-1] cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2025-07-23 19:13:43,953 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,954 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2025-07-23 19:13:43,954 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2025-07-23 19:13:43,955 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2025-07-23 19:13:43,955 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2025-07-23 19:13:43,973 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,974 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2025-07-23 19:13:43,975 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2025-07-23 19:13:43,976 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2025-07-23 19:13:43,976 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2025-07-23 19:13:43,995 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:43,995 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2025-07-23 19:13:43,998 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2025-07-23 19:13:43,999 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2025-07-23 19:13:43,999 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2025-07-23 19:13:44,028 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:44,030 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2025-07-23 19:13:44,030 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2025-07-23 19:13:44,032 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2025-07-23 19:13:44,032 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2025-07-23 19:13:44,040 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:44,042 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:44,045 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:44,048 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:44,052 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:44,053 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:44,057 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:44,059 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:44,060 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:13:44,060 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:44,061 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2025-07-23 19:13:44,063 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2025-07-23 19:13:44,064 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2025-07-23 19:13:44,065 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2025-07-23 19:13:44,067 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:44,067 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2025-07-23 19:13:44,067 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2025-07-23 19:13:44,067 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2025-07-23 19:13:44,069 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2025-07-23 19:13:44,076 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:44,076 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2025-07-23 19:13:44,077 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2025-07-23 19:13:44,078 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2025-07-23 19:13:44,078 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2025-07-23 19:13:44,080 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:44,081 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2025-07-23 19:13:44,082 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2025-07-23 19:13:44,083 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2025-07-23 19:13:44,083 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2025-07-23 19:13:44,085 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:44,085 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2025-07-23 19:13:44,086 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2025-07-23 19:13:44,087 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2025-07-23 19:13:44,087 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2025-07-23 19:13:44,090 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:44,090 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2025-07-23 19:13:44,091 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2025-07-23 19:13:44,092 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2025-07-23 19:13:44,093 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2025-07-23 19:13:44,139 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:44,140 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2025-07-23 19:13:44,140 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2025-07-23 19:13:44,141 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2025-07-23 19:13:44,141 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2025-07-23 19:13:44,143 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:13:44,144 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2025-07-23 19:13:44,145 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2025-07-23 19:13:44,145 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2025-07-23 19:13:44,146 DEBUG [TestNG-tests-1] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2025-07-23 19:15:03,862  INFO [TestNG-tests-1] TC01_registrationTestcase:116 - cookies deleted
+2025-07-23 19:15:04,798  INFO [TestNG-tests-1] TC01_registrationTestcase:19 - ******* Started TC_01_registrationTestcase *******
+2025-07-23 19:15:04,858  INFO [TestNG-tests-1] TC01_registrationTestcase:23 - Clicking on My account
+2025-07-23 19:15:06,169  INFO [TestNG-tests-1] TC01_registrationTestcase:25 - Clicking on Register option
+2025-07-23 19:15:07,000  INFO [TestNG-tests-1] TC01_registrationTestcase:28 - Entering Customer details
+2025-07-23 19:15:07,657  INFO [TestNG-tests-1] TC01_registrationTestcase:36 - Clicking on continue button
+2025-07-23 19:15:08,717  INFO [TestNG-tests-1] TC01_registrationTestcase:38 - Validating succes messge and clicking on continue button
+2025-07-23 19:15:09,132  INFO [TestNG-tests-1] TC01_registrationTestcase:53 - ******* Finished TC_01_registrationTestcase *******
+2025-07-23 19:15:11,224  INFO [TestNG-tests-1] TC01_loginTestCase:116 - cookies deleted
+2025-07-23 19:15:15,639  INFO [TestNG-tests-1] TC01_loginTestCase:25 - ******* Started TC_01_Login Testcase *******
+2025-07-23 19:15:15,829  INFO [TestNG-tests-1] TC01_loginTestCase:27 - Clicked on my account
+2025-07-23 19:15:16,221  INFO [TestNG-tests-1] TC01_loginTestCase:29 - selected loginoption
+2025-07-23 19:15:16,618  INFO [TestNG-tests-1] TC01_loginTestCase:37 - login credentials enterd
+2025-07-23 19:15:16,761  INFO [TestNG-tests-1] TC01_loginTestCase:39 - clicked on login button
+2025-07-23 19:15:17,606  INFO [TestNG-tests-1] TC01_loginTestCase:41 - My Account Text is displayed
+2025-07-23 19:15:17,651  INFO [TestNG-tests-1] TC01_loginTestCase:43 - logout link is displayed
+2025-07-23 19:15:18,262  INFO [TestNG-tests-1] TC01_loginTestCase:45 - clicked on logout link
+2025-07-23 19:15:18,309  INFO [TestNG-tests-1] TC01_loginTestCase:47 - account logout text is displayed
+2025-07-23 19:15:18,310  INFO [TestNG-tests-1] TC01_loginTestCase:51 - ******* Finished TC_01_Login Testcase *******
+2025-07-23 19:15:20,399  INFO [TestNG-tests-1] TC03_LoginDDT:116 - cookies deleted
+2025-07-23 19:15:28,074  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:28,238  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:15:28,922  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:15:28,999  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:15:29,233  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:15:30,507  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:15:30,566  INFO [TestNG-tests-1] TC03_LoginDDT:46 - My Account Text is displayed
+2025-07-23 19:15:30,598  INFO [TestNG-tests-1] TC03_LoginDDT:48 - logout link is displayed
+2025-07-23 19:15:31,248  INFO [TestNG-tests-1] TC03_LoginDDT:50 - clicked on logout link
+2025-07-23 19:15:31,379  INFO [TestNG-tests-1] TC03_LoginDDT:52 - account logout text is displayed
+2025-07-23 19:15:31,380  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:31,390  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:31,538  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:15:31,938  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:15:32,041  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:15:32,274  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:15:32,391  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:15:33,428  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:15:33,429  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:33,432  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:33,532  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:15:33,824  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:15:33,887  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:15:34,110  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:15:34,427  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:15:34,541  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:15:34,542  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:34,547  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:34,648  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:15:37,179  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:15:37,244  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:15:37,443  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:15:37,551  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:15:39,065  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:15:39,066  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:39,067  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:39,168  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:15:39,541  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:15:39,612  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:15:39,824  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:15:39,939  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:15:41,494  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:15:41,495  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:41,497  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:41,599  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:15:41,950  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:15:42,007  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:15:42,202  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:15:42,307  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:15:42,753  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:15:42,754  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:42,758  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:42,853  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:15:43,172  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:15:43,252  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:15:43,482  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:15:44,038  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:15:44,121  INFO [TestNG-tests-1] TC03_LoginDDT:61 - warning message is displayed 
+2025-07-23 19:15:44,121  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:44,123  INFO [TestNG-tests-1] TC03_LoginDDT:26 - ******* Started TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:44,234  INFO [TestNG-tests-1] TC03_LoginDDT:28 - Clicked on my account
+2025-07-23 19:15:44,580  INFO [TestNG-tests-1] TC03_LoginDDT:30 - selected loginoption
+2025-07-23 19:15:44,638  INFO [TestNG-tests-1] TC03_LoginDDT:34 - Returning Customer is displayed
+2025-07-23 19:15:44,852  INFO [TestNG-tests-1] TC03_LoginDDT:40 - login credentials enterd
+2025-07-23 19:15:45,772  INFO [TestNG-tests-1] TC03_LoginDDT:42 - clicked on login button
+2025-07-23 19:15:45,823  INFO [TestNG-tests-1] TC03_LoginDDT:46 - My Account Text is displayed
+2025-07-23 19:15:45,852  INFO [TestNG-tests-1] TC03_LoginDDT:48 - logout link is displayed
+2025-07-23 19:15:46,352  INFO [TestNG-tests-1] TC03_LoginDDT:50 - clicked on logout link
+2025-07-23 19:15:46,413  INFO [TestNG-tests-1] TC03_LoginDDT:52 - account logout text is displayed
+2025-07-23 19:15:46,413  INFO [TestNG-tests-1] TC03_LoginDDT:72 - ******* Finished TC_03_Verify_LoginDDT *******
+2025-07-23 19:15:46,841 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:46,843 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2025-07-23 19:15:46,847 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2025-07-23 19:15:46,848 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2025-07-23 19:15:46,849 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2025-07-23 19:15:46,965 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:46,966 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2025-07-23 19:15:46,967 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2025-07-23 19:15:46,967 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2025-07-23 19:15:46,968 DEBUG [TestNG-tests-1] cache:45 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2025-07-23 19:15:47,166 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,167 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2025-07-23 19:15:47,168 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2025-07-23 19:15:47,169 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2025-07-23 19:15:47,169 DEBUG [TestNG-tests-1] cache:45 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2025-07-23 19:15:47,180 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,181 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2025-07-23 19:15:47,183 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2025-07-23 19:15:47,183 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2025-07-23 19:15:47,184 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2025-07-23 19:15:47,187 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,188 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2025-07-23 19:15:47,188 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2025-07-23 19:15:47,189 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2025-07-23 19:15:47,189 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2025-07-23 19:15:47,192 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,193 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2025-07-23 19:15:47,194 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2025-07-23 19:15:47,195 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2025-07-23 19:15:47,197 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2025-07-23 19:15:47,202 DEBUG [TestNG-tests-1] cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,203 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,204 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+2025-07-23 19:15:47,205 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2025-07-23 19:15:47,206 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2025-07-23 19:15:47,207 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2025-07-23 19:15:47,236 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,237 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2025-07-23 19:15:47,243 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2025-07-23 19:15:47,245 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2025-07-23 19:15:47,246 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2025-07-23 19:15:47,270 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,273 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2025-07-23 19:15:47,274 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2025-07-23 19:15:47,275 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2025-07-23 19:15:47,276 DEBUG [TestNG-tests-1] cache:45 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2025-07-23 19:15:47,280 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,281 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2025-07-23 19:15:47,282 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2025-07-23 19:15:47,284 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2025-07-23 19:15:47,284 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2025-07-23 19:15:47,309 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,310 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2025-07-23 19:15:47,312 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2025-07-23 19:15:47,313 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2025-07-23 19:15:47,314 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2025-07-23 19:15:47,332 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,333 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2025-07-23 19:15:47,333 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2025-07-23 19:15:47,334 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2025-07-23 19:15:47,334 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2025-07-23 19:15:47,365 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,366 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2025-07-23 19:15:47,367 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2025-07-23 19:15:47,368 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2025-07-23 19:15:47,368 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2025-07-23 19:15:47,376 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,378 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,380 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,383 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,385 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,387 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,390 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,392 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,394 DEBUG [TestNG-tests-1] cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-07-23 19:15:47,395 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,396 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+2025-07-23 19:15:47,398 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2025-07-23 19:15:47,398 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2025-07-23 19:15:47,399 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2025-07-23 19:15:47,401 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,402 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+2025-07-23 19:15:47,403 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2025-07-23 19:15:47,403 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2025-07-23 19:15:47,405 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2025-07-23 19:15:47,411 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,411 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+2025-07-23 19:15:47,413 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2025-07-23 19:15:47,415 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2025-07-23 19:15:47,415 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2025-07-23 19:15:47,416 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,417 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+2025-07-23 19:15:47,417 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2025-07-23 19:15:47,418 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2025-07-23 19:15:47,418 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2025-07-23 19:15:47,419 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,421 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+2025-07-23 19:15:47,422 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2025-07-23 19:15:47,422 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2025-07-23 19:15:47,423 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2025-07-23 19:15:47,425 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,426 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2025-07-23 19:15:47,427 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2025-07-23 19:15:47,428 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2025-07-23 19:15:47,428 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2025-07-23 19:15:47,483 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,485 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2025-07-23 19:15:47,485 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2025-07-23 19:15:47,486 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2025-07-23 19:15:47,486 DEBUG [TestNG-tests-1] cache:45 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2025-07-23 19:15:47,489 DEBUG [TestNG-tests-1] cache:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2025-07-23 19:15:47,489 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2025-07-23 19:15:47,490 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2025-07-23 19:15:47,491 DEBUG [TestNG-tests-1] cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2025-07-23 19:15:47,491 DEBUG [TestNG-tests-1] cache:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/phani/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
