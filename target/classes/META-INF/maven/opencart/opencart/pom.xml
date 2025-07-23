@@ -115,7 +115,7 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testngXML/allTestcases.xml</suiteXmlFile>
+						<suiteXmlFile>testngXML/MasterSuite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

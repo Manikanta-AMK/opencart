@@ -5,21 +5,21 @@
 		<listener class-name="utilities.ExtentReportManager"></listener>
 	</listeners>
 
-<!--	<test thread-count="5" name="linux_chrome">
+<test thread-count="5" name="linux_chrome">
 		<parameter name="os" value="linux"></parameter>
 		<parameter name="browser" value="chrome"></parameter>
 		<classes>
 			<class name="testCases.TC01_loginTestCase" />
 		</classes>
-	</test> -->
-
-<!--	 <test thread-count="5" name="linux_edge">
+	</test>
+	
+<!--	  <test thread-count="5" name="linux_edge">
 		<parameter name="os" value="linux"></parameter>
 		<parameter name="browser" value="edge"></parameter>
 		<classes>
 			<class name="testCases.TC01_loginTestCase" />
 		</classes>
-	</test>-->
+	</test>
 
 	<test thread-count="5" name="linux_firefox">
 		<parameter name="os" value="linux"></parameter>
@@ -27,7 +27,8 @@
 		<classes>
 			<class name="testCases.TC01_loginTestCase" />
 		</classes>
-	</test> 
+	</test>  -->
+
 
 
 </suite> <!--

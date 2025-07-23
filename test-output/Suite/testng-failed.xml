@@ -4,9 +4,9 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="linux_edge(failed)">
-    <parameter name="os" value="linux"/>
-    <parameter name="browser" value="edge"/>
+  <test thread-count="5" parallel="tests" name="TC01_loginTestCase_chrome(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testCases.TC01_loginTestCase">
         <methods>
@@ -16,5 +16,5 @@
         </methods>
       </class> <!-- testCases.TC01_loginTestCase -->
     </classes>
-  </test> <!-- linux_edge(failed) -->
+  </test> <!-- TC01_loginTestCase_chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

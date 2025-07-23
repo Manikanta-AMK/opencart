@@ -13,7 +13,7 @@
 		</classes>
 	</test> 
 	
-		  <test name="TC01_registrationTestcase_firefox">
+		<!--   <test name="TC01_registrationTestcase_firefox">
 		<parameter name="os" value="windows"></parameter>
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
@@ -27,7 +27,7 @@
 		<classes>
 			<class name="testCases.TC01_registrationTestcase" />
 		</classes>
-	</test>  
+	</test> -->  
 	
 </suite> 
 

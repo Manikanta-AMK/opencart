@@ -3,35 +3,25 @@ package utilities;
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
-import java.io.File;
-import java.io.IOException;
-import java.util.Date;
-import java.util.Random;
 
 import org.apache.commons.lang3.RandomStringUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.ITestResult;
 
-import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.google.common.io.Files;
 
-import net.bytebuddy.utility.RandomString;
 import testBase.BaseTest;
 
-public class commonlib {
+public class commonlib extends BaseTest {
+	
+	//ExtentReportManager exrp = new ExtentReportManager();
 	
 	
-	
-	/*public void backNavigation()
+	public void backNavigation()
 	{
 		driver.navigate().back();
 	}
@@ -44,7 +34,7 @@ public class commonlib {
 	public void pageRefresh()
 	{
 		driver.navigate().refresh();
-	}*/
+	}
 	
 	public static void elementStatus(int checkType, WebElement element, String elementName)
 	{
@@ -53,40 +43,40 @@ public class commonlib {
 		case 1: 
 			try {
 				element.isDisplayed();
-				suiteListener.test.info(MarkupHelper.createLabel(elementName+" is displayed", ExtentColor.ORANGE));
+				ExtentReportManager.test.info(MarkupHelper.createLabel(elementName+" is displayed", ExtentColor.ORANGE));
 				
 			}
 			catch(Exception e)
 			{
-				suiteListener.test.info(MarkupHelper.createLabel(elementName+" is not displayed", ExtentColor.GREY));
+				ExtentReportManager.test.info(MarkupHelper.createLabel(elementName+" is not displayed", ExtentColor.GREY));
 			}
 			break;
 			
 		case 2:
 			try {
 				element.isEnabled();
-				suiteListener.test.info(MarkupHelper.createLabel(elementName+" is enabled", ExtentColor.ORANGE));
+				ExtentReportManager.test.info(MarkupHelper.createLabel(elementName+" is enabled", ExtentColor.ORANGE));
 			}
 			catch(Exception e)
 			{
-				suiteListener.test.info(MarkupHelper.createLabel(elementName+" is not disabled", ExtentColor.PINK));
+				ExtentReportManager.test.info(MarkupHelper.createLabel(elementName+" is  disabled", ExtentColor.PINK));
 			}
 		    break;
 		
 		case 3:
 			try {
 				element.isSelected();
-				suiteListener.test.info(MarkupHelper.createLabel(elementName+" is selected", ExtentColor.ORANGE));
+				ExtentReportManager.test.info(MarkupHelper.createLabel(elementName+" is selected", ExtentColor.ORANGE));
 			}
 		    catch(Exception e)
 			{
-		    	suiteListener.test.info(MarkupHelper.createLabel(elementName+" is not selected", ExtentColor.YELLOW));
+		    	ExtentReportManager.test.info(MarkupHelper.createLabel(elementName+" is not selected", ExtentColor.YELLOW));
 			}
 		    break;
 		}
 	}
 
-	/*public void pageTitleVerification(String actual, String expected, String pagetitle)
+	public void pageTitleVerification(String actual, String expected, String pagetitle)
 	{
 		Assert.assertEquals(actual, expected);
 		
@@ -96,7 +86,7 @@ public class commonlib {
 		}else {
 			Assert.assertEquals(pagetitle+" is not displayed, failed", false);
 		}
-	}*/
+	}
 	
 
 	public void staticDropDownVisibleTxt(WebElement element, String text)
@@ -128,12 +118,12 @@ public class commonlib {
 		Select sel = new Select(element);
 		sel.deselectByIndex(index);
 	}
-	/*
+	
 	public void ActionsClass(WebElement element)
 	{
 		Actions action = new Actions(driver);
 		action.moveToElement(element).click().perform();
-	}*/
+	}
 	
    public String randomMailId()
 	{
@@ -183,49 +173,5 @@ public class commonlib {
 		Robot robot = new Robot();
 		robot.keyPress(KeyEvent.VK_LEFT);
 	}
-
-
-//	public  static void screenShots(String  screenshotName) throws IOException
-//	{
-//		TakesScreenshot ts =(TakesScreenshot) BaseTest.driver;
-//		File src = ts.getScreenshotAs(OutputType.FILE);
-//		String dest = "./screenshots/"+new Date().getTime()+".png";
-//		File destination = new File(dest);
-//		try {
-//			Files.copy(src, destination);
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//	}
-//	
-//public static String path = "C:\\Users\\phani\\eclipse-workspace\\CogmentoCRM_Free\\screenshots\\";
-//	
-//	public static  File takeScreenshot(String screenshotName) {
-//		String filename = screenshotName + ".png";
-//		TakesScreenshot ts = (TakesScreenshot) baseTest.driver;
-//		File srcFile = ts.getScreenshotAs(OutputType.FILE);
-//		String screenshotpath = path + filename;
-//
-//		File dest = new File(screenshotpath);
-//		try {
-//			Files.copy(srcFile, dest);
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-//		return dest;
-//
-//	}
-	
-	public static  void takeScreenshots(WebDriver driver, String testName) {
-        try {
-            // Capture screenshot and save to file
-            File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String screenshotPath = path + testName + "_" + new Date().getTime() + ".png";
-            FileHandler.copy(screenshot, new File(screenshotPath));
-            System.out.println("Screenshot taken for failed test: " + screenshotPath);
-        } catch (IOException e) {
-            System.out.println("Error while taking screenshot: " + e.getMessage());
-        }
-    }
 
 }

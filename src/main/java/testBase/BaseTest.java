@@ -12,8 +12,6 @@ import java.util.Date;
 import java.util.Properties;
 
 import org.apache.log4j.LogManager;
-//import org.apache.logging.log4j.Logger;
-//import org.apache.logging.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
@@ -33,7 +31,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.constants;
 import utilities.filelib;
 
@@ -97,22 +94,8 @@ public class BaseTest {
 		}
 
 		// browser for local
-		if (prop.getProperty("execution_env").equalsIgnoreCase("local")) {
-			
-//			 browser = prop.getProperty("browser");
-//				if (browser.equalsIgnoreCase("chrome")) {
-//					WebDriverManager.chromedriver().setup();
-//					driver = new ChromeDriver();
-//				} else if (browser.equalsIgnoreCase("edge")) {
-//					WebDriverManager.edgedriver().setup();
-//					driver = new EdgeDriver();
-//				} else if (browser.equalsIgnoreCase("firefox")) {
-//					WebDriverManager.firefoxdriver().setup();
-//					driver = new FirefoxDriver();
-//				} else {
-//					System.out.println("Please initialize a valid browser in config.properties.");
-//				}
-			
+		if (prop.getProperty("execution_env").equalsIgnoreCase("local")) 
+		{
 			switch (browser.toLowerCase()) {
 			case "chrome":
 				driver = new ChromeDriver();

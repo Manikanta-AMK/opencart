@@ -8,20 +8,6 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC03_LoginDDT">
-        <methods>
-          <include name="Verify_LoginDDT"/>
-          <include name="initialization"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- testCases.TC03_LoginDDT -->
-      <class name="testCases.TC01_registrationTestcase">
-        <methods>
-          <include name="initialization"/>
-          <include name="teardown"/>
-          <include name="Registration"/>
-        </methods>
-      </class> <!-- testCases.TC01_registrationTestcase -->
       <class name="testCases.TC01_loginTestCase">
         <methods>
           <include name="loginTest"/>

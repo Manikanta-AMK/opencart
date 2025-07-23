@@ -13,6 +13,7 @@ import java.net.URL;
 import org.apache.commons.mail.DefaultAuthenticator;
 import org.apache.commons.mail.ImageHtmlEmail;
 import org.apache.commons.mail.resolver.DataSourceUrlResolver;
+import org.testng.IAnnotationTransformer;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -26,10 +27,10 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 import testBase.BaseTest;
 
-public class ExtentReportManager implements ITestListener {
+public class ExtentReportManager implements ITestListener, IAnnotationTransformer{
 	public ExtentSparkReporter sparkReporter;
 	public ExtentReports extent;
-	public ExtentTest test;
+	public static ExtentTest test;
 
 	String repName;
 
