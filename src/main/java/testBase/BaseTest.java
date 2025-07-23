@@ -66,20 +66,20 @@ public class BaseTest {
 		PropertyConfigurator.configure(constants.log4jPath);
 
 		// remote server
-		if (prop.getProperty("execution_env").equalsIgnoreCase("remote")) 
-		{
+		if (prop.getProperty("execution_env").equalsIgnoreCase("remote")) {
 			DesiredCapabilities Capabilities = new DesiredCapabilities();
-			if (os.equalsIgnoreCase("windows"))
-			{
+			if (os.equalsIgnoreCase("windows")) {
 				Capabilities.setPlatform(Platform.WIN11);
 			} else if (os.equalsIgnoreCase("mac")) {
 				Capabilities.setPlatform(Platform.MAC);
+			} else if (os.equalsIgnoreCase("linux")) {
+				Capabilities.setPlatform(Platform.LINUX);
 			} else {
 				log.info("no matching OS");
 				return;
 			}
-			switch (browser.toLowerCase()) 
-			{
+
+			switch (browser.toLowerCase()) {
 			case "chrome":
 				Capabilities.setBrowserName("chrome");
 				break;
@@ -93,7 +93,7 @@ public class BaseTest {
 				System.out.println("Invalid browser name");
 				return;
 			}
-			driver=new RemoteWebDriver(new URL("http://localhost:4444/"),Capabilities);
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/"), Capabilities);
 		}
 
 		// browser for local
