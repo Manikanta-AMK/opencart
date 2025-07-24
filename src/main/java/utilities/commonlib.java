@@ -24,6 +24,7 @@ public class commonlib extends BaseTest {
 	public void backNavigation()
 	{
 		driver.navigate().back();
+		System.out.println("navigate back");
 	}
 	
 	public void frontnavigation()
